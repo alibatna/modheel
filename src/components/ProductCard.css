@@ -1,0 +1,50 @@
+/* src/components/ProductCard.css */
+
+.product-card {
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Smooth transition for hover effects */
+    margin: 15px; /* Spacing around the card */
+    overflow: hidden; /* Prevent content overflow */
+    background-color: white; /* White background for the card */
+}
+
+.product-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.product-card img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.product-price {
+    font-weight: bold; /* Bold price text */
+    color: #333; /* Dark gray color for the price */
+    margin-bottom: 10px; /* Add spacing below price */
+}
+
+.card-title {
+    font-size: 1.2rem; /* Slightly larger font for the title */
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.card-body {
+    padding: 15px; /* Padding inside the card body */
+}
+
+button {
+    background-color: #28a745; /* Green background for add to cart button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size for button */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green when hovered */
+}
